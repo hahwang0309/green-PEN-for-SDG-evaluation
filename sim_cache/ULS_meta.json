@@ -1,0 +1,1586 @@
+{
+  "region": "ULS",
+  "years": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034
+  ],
+  "n": 103,
+  "node_list": [
+    {
+      "node_id": "ULS-건물-001",
+      "node_type": "POLICY",
+      "label": "[건물] 그린홈 주택지원사업",
+      "unit": "kW",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-002",
+      "node_type": "POLICY",
+      "label": "[건물] 울산형 주택태양광 지원사업",
+      "unit": "kW",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-003",
+      "node_type": "POLICY",
+      "label": "[건물] 사랑의 햇빛에너지 보조사업",
+      "unit": "kW",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-004",
+      "node_type": "POLICY",
+      "label": "[건물] 노후 주택 지붕 태양광 전환",
+      "unit": "가구",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-005",
+      "node_type": "POLICY",
+      "label": "[건물] 울산 그린스마트미래학교 전환",
+      "unit": "개교",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-006",
+      "node_type": "POLICY",
+      "label": "[건물] 쿨루프 확대",
+      "unit": "%",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-007",
+      "node_type": "POLICY",
+      "label": "[건물] 건물 옥상녹화",
+      "unit": "%",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-008",
+      "node_type": "POLICY",
+      "label": "[건물] 고단열 창호교체",
+      "unit": "가구",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-009",
+      "node_type": "POLICY",
+      "label": "[건물] 공공부문 온실가스 목표관리제",
+      "unit": "개소",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-010",
+      "node_type": "POLICY",
+      "label": "[건물] LED 조명 보급",
+      "unit": "개",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-011",
+      "node_type": "POLICY",
+      "label": "[건물] 가정용 환경표지인증 보일러 교체",
+      "unit": "대",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-012",
+      "node_type": "POLICY",
+      "label": "[건물] 온실가스 진단·컨설팅",
+      "unit": "개소",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-013",
+      "node_type": "POLICY",
+      "label": "[건물] 탄소중립포인트 에너지 운영",
+      "unit": "가구",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-014",
+      "node_type": "POLICY",
+      "label": "[건물] 빗물이용시설 설치 확대",
+      "unit": "개소",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-015",
+      "node_type": "POLICY",
+      "label": "[건물] 상업용 건물 에너지관리시스템(BEMS) 보급",
+      "unit": "개소",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-016",
+      "node_type": "POLICY",
+      "label": "[건물] 주거용 건물 에너지관리시스템(HEMS) 보급",
+      "unit": "가구",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-017",
+      "node_type": "POLICY",
+      "label": "[건물] 대기전력 차단기 보급",
+      "unit": "개",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-019",
+      "node_type": "POLICY",
+      "label": "[건물] 신재생에너지 보급(융복합) 지원",
+      "unit": "kW",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-020",
+      "node_type": "POLICY",
+      "label": "[건물] 에너지 자립형 도로시설 설치",
+      "unit": "kW",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-022",
+      "node_type": "POLICY",
+      "label": "[건물] 그린캠퍼스 조성",
+      "unit": "개소",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-023",
+      "node_type": "POLICY",
+      "label": "[건물] 시민가상발전소 보급",
+      "unit": "kW",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-건물-024",
+      "node_type": "POLICY",
+      "label": "[건물] 건물 열병합발전시설 보급",
+      "unit": "MW",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-농축수산-001",
+      "node_type": "POLICY",
+      "label": "[농축수산] 농촌형 태양광 설치·보급 확대",
+      "unit": "kW",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-농축수산-002",
+      "node_type": "POLICY",
+      "label": "[농축수산] 수상태양광 보급",
+      "unit": "kW",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-농축수산-003",
+      "node_type": "POLICY",
+      "label": "[농축수산] 지열, 공기열 히트펌프 보급",
+      "unit": "대",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-농축수산-004",
+      "node_type": "POLICY",
+      "label": "[농축수산] 바이오차",
+      "unit": "t",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-농축수산-007",
+      "node_type": "POLICY",
+      "label": "[농축수산] 친환경농법(논물관리)",
+      "unit": "ha",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-농축수산-008",
+      "node_type": "POLICY",
+      "label": "[농축수산] 저메탄, 저단백질 사료보급",
+      "unit": "t",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-수송-001",
+      "node_type": "POLICY",
+      "label": "[수송] 전기차 보급사업",
+      "unit": "대",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-수송-002",
+      "node_type": "POLICY",
+      "label": "[수송] 수소차 보급사업",
+      "unit": "대",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-수송-003",
+      "node_type": "POLICY",
+      "label": "[수송] 전기이륜차 보급사업",
+      "unit": "대",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-수송-005",
+      "node_type": "POLICY",
+      "label": "[수송] 택배용 전기화물차 보급",
+      "unit": "대",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-수송-006",
+      "node_type": "POLICY",
+      "label": "[수송] 전기 및 수소버스 보급 확대",
+      "unit": "대",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-수송-007",
+      "node_type": "POLICY",
+      "label": "[수송] 울산 트램 도입",
+      "unit": "km",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-수송-009",
+      "node_type": "POLICY",
+      "label": "[수송] 자전거 도로 건설 확대",
+      "unit": "km",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-수송-010",
+      "node_type": "POLICY",
+      "label": "[수송] 노후 경유차 조기폐차",
+      "unit": "대",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-수송-011",
+      "node_type": "POLICY",
+      "label": "[수송] 노후 경유차 및 어린이 통학차량 LPG 차량 구매 지원",
+      "unit": "대",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-수송-013",
+      "node_type": "POLICY",
+      "label": "[수송] 친환경 건설기계 보급",
+      "unit": "대",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-수송-015",
+      "node_type": "POLICY",
+      "label": "[수송] 탄소중립포인트(자동차) 운영",
+      "unit": "가구",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-자원순환-001",
+      "node_type": "POLICY",
+      "label": "[자원순환] 생활폐기물 발생량 감축",
+      "unit": "t/일",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-자원순환-002",
+      "node_type": "POLICY",
+      "label": "[자원순환] 음식물류 폐기물 감량화",
+      "unit": "t/일",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-자원순환-003",
+      "node_type": "POLICY",
+      "label": "[자원순환] 소각장 폐열 자원화(스팀에너지 공급)",
+      "unit": "tCO2/yr",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-자원순환-006",
+      "node_type": "POLICY",
+      "label": "[자원순환] 다회용기, 다회용컵 사용 플랫폼 구축·운영",
+      "unit": "회",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-흡수원-001",
+      "node_type": "POLICY",
+      "label": "[흡수원] 탄소중립 도시숲 조성",
+      "unit": "ha",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-흡수원-002",
+      "node_type": "POLICY",
+      "label": "[흡수원] 건강한 숲 조성",
+      "unit": "ha",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-흡수원-003",
+      "node_type": "POLICY",
+      "label": "[흡수원] 생활 속 정원문화 만들기",
+      "unit": "개소",
+      "layer_order": 0
+    },
+    {
+      "node_id": "ULS-흡수원-004",
+      "node_type": "POLICY",
+      "label": "[흡수원] 해중림 조성",
+      "unit": "ha",
+      "layer_order": 0
+    },
+    {
+      "node_id": "D01",
+      "node_type": "DIRECT",
+      "label": "태양광 설비용량",
+      "unit": "kW",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D02",
+      "node_type": "DIRECT",
+      "label": "에너지효율 개선 건물 수",
+      "unit": "m²·가구·개소",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D03",
+      "node_type": "DIRECT",
+      "label": "LED·절전기기 보급",
+      "unit": "개",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D04",
+      "node_type": "DIRECT",
+      "label": "수요반응(DR) 용량",
+      "unit": "MW",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D05",
+      "node_type": "DIRECT",
+      "label": "탄소중립포인트 참여",
+      "unit": "가구·명",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D06",
+      "node_type": "DIRECT",
+      "label": "빗물·하수재이용시설",
+      "unit": "개소·m³/일",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D07",
+      "node_type": "DIRECT",
+      "label": "친환경 승용·화물차 보급",
+      "unit": "대",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D08",
+      "node_type": "DIRECT",
+      "label": "친환경 대중교통 보급",
+      "unit": "대",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D09",
+      "node_type": "DIRECT",
+      "label": "친환경 개인이동수단",
+      "unit": "대·km",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D10",
+      "node_type": "DIRECT",
+      "label": "노후 오염차 감소",
+      "unit": "대",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D11",
+      "node_type": "DIRECT",
+      "label": "농촌·수산 재생에너지",
+      "unit": "kW·대",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D12",
+      "node_type": "DIRECT",
+      "label": "농업 탄소 처리",
+      "unit": "t·ha",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D13",
+      "node_type": "DIRECT",
+      "label": "가축 저메탄 관리",
+      "unit": "t·두",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D14",
+      "node_type": "DIRECT",
+      "label": "농업 기계 에너지절감",
+      "unit": "대",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D15",
+      "node_type": "DIRECT",
+      "label": "수산양식 에너지 절감",
+      "unit": "kW·대",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D16",
+      "node_type": "DIRECT",
+      "label": "폐기물 감량 및 자원화",
+      "unit": "t·개소",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D17",
+      "node_type": "DIRECT",
+      "label": "바이오가스·폐열 자원화",
+      "unit": "tCO₂·개소",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D18",
+      "node_type": "DIRECT",
+      "label": "흡수원 조성면적",
+      "unit": "ha·본·km",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D19",
+      "node_type": "DIRECT",
+      "label": "친환경 건설기계",
+      "unit": "대",
+      "layer_order": 1
+    },
+    {
+      "node_id": "D20",
+      "node_type": "DIRECT",
+      "label": "가축분뇨 연료화",
+      "unit": "t",
+      "layer_order": 1
+    },
+    {
+      "node_id": "I01",
+      "node_type": "INDIRECT",
+      "label": "태양광 발전량",
+      "unit": "kWh/년",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I02",
+      "node_type": "INDIRECT",
+      "label": "건물부문 화석연료 대체량",
+      "unit": "TOE",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I03",
+      "node_type": "INDIRECT",
+      "label": "수송부문 화석연료 대체량",
+      "unit": "TOE",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I04",
+      "node_type": "INDIRECT",
+      "label": "건물·시설 에너지 절감량",
+      "unit": "TOE/년",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I05",
+      "node_type": "INDIRECT",
+      "label": "수요반응(DR) 전력절감량",
+      "unit": "MWh",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I06",
+      "node_type": "INDIRECT",
+      "label": "수송 에너지 절감량",
+      "unit": "TOE",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I07",
+      "node_type": "INDIRECT",
+      "label": "탄소 흡수량(육상)",
+      "unit": "tCO₂eq/년",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I08",
+      "node_type": "INDIRECT",
+      "label": "토양 탄소 격리량",
+      "unit": "tCO₂eq",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I09",
+      "node_type": "INDIRECT",
+      "label": "가축 메탄 감축량",
+      "unit": "tCH₄",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I10",
+      "node_type": "INDIRECT",
+      "label": "농업 에너지 절감량",
+      "unit": "TOE",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I11",
+      "node_type": "INDIRECT",
+      "label": "폐기물 매립·소각 감소량",
+      "unit": "t/일",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I12",
+      "node_type": "INDIRECT",
+      "label": "매립지 메탄 감소량",
+      "unit": "tCO₂eq",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I13",
+      "node_type": "INDIRECT",
+      "label": "바이오가스·폐열 회수량",
+      "unit": "TOE",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I14",
+      "node_type": "INDIRECT",
+      "label": "산림 면적",
+      "unit": "ha",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I15",
+      "node_type": "INDIRECT",
+      "label": "갯벌·습지 블루카본 흡수량",
+      "unit": "tCO₂eq",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I16",
+      "node_type": "INDIRECT",
+      "label": "수산양식 에너지 절감량",
+      "unit": "TOE",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I17",
+      "node_type": "INDIRECT",
+      "label": "친환경차 부품·제조업 수요",
+      "unit": "억원",
+      "layer_order": 2
+    },
+    {
+      "node_id": "I18",
+      "node_type": "INDIRECT",
+      "label": "건설·설치업 고용 증가",
+      "unit": "명",
+      "layer_order": 2
+    },
+    {
+      "node_id": "SD01",
+      "node_type": "SD_SINK",
+      "label": "온실가스배출량 변화량",
+      "unit": "tCO₂eq",
+      "layer_order": 2
+    },
+    {
+      "node_id": "SD02",
+      "node_type": "SD_SINK",
+      "label": "신재생에너지사용량 변화량",
+      "unit": "TOE",
+      "layer_order": 2
+    },
+    {
+      "node_id": "SD03",
+      "node_type": "SD_SINK",
+      "label": "기존에너지사용량 변화량",
+      "unit": "TOE",
+      "layer_order": 2
+    },
+    {
+      "node_id": "SD04",
+      "node_type": "SD_SINK",
+      "label": "1·2차산업 GDP 변화량",
+      "unit": "억원",
+      "layer_order": 2
+    },
+    {
+      "node_id": "SD05",
+      "node_type": "SD_SINK",
+      "label": "1·2차산업 취업자수 변화량",
+      "unit": "명",
+      "layer_order": 2
+    },
+    {
+      "node_id": "G01",
+      "node_type": "SDG_SINK",
+      "label": "연간 온실가스 총배출량",
+      "unit": "천tCO₂eq",
+      "layer_order": 4
+    },
+    {
+      "node_id": "G02",
+      "node_type": "SDG_SINK",
+      "label": "총에너지 중 재생에너지 비중",
+      "unit": "%",
+      "layer_order": 4
+    },
+    {
+      "node_id": "G03",
+      "node_type": "SDG_SINK",
+      "label": "에너지 집약도(GDP당 에너지)",
+      "unit": "TOE/억원",
+      "layer_order": 4
+    },
+    {
+      "node_id": "G04",
+      "node_type": "SDG_SINK",
+      "label": "1인당 실질GDP 연평균 성장률",
+      "unit": "%",
+      "layer_order": 4
+    },
+    {
+      "node_id": "G05",
+      "node_type": "SDG_SINK",
+      "label": "취업자당 GDP 연평균 성장률",
+      "unit": "%",
+      "layer_order": 4
+    },
+    {
+      "node_id": "G06",
+      "node_type": "SDG_SINK",
+      "label": "GDP 대비 제조업 부가가치 비중",
+      "unit": "%",
+      "layer_order": 4
+    },
+    {
+      "node_id": "G07",
+      "node_type": "SDG_SINK",
+      "label": "전체 취업 대비 제조업 고용 비중",
+      "unit": "%",
+      "layer_order": 4
+    },
+    {
+      "node_id": "G08",
+      "node_type": "SDG_SINK",
+      "label": "부가가치단위당 CO₂ 배출량",
+      "unit": "tCO₂eq/억원",
+      "layer_order": 4
+    },
+    {
+      "node_id": "G09",
+      "node_type": "SDG_SINK",
+      "label": "수생태계 면적 변화율",
+      "unit": "%",
+      "layer_order": 4
+    },
+    {
+      "node_id": "G10",
+      "node_type": "SDG_SINK",
+      "label": "토지이용 증가율/인구 증가율",
+      "unit": "비율",
+      "layer_order": 4
+    },
+    {
+      "node_id": "G11",
+      "node_type": "SDG_SINK",
+      "label": "도시 내 공개공간 비율",
+      "unit": "%",
+      "layer_order": 4
+    },
+    {
+      "node_id": "G12",
+      "node_type": "SDG_SINK",
+      "label": "총 국토 대비 산림면적 비율",
+      "unit": "%",
+      "layer_order": 4
+    },
+    {
+      "node_id": "G13",
+      "node_type": "SDG_SINK",
+      "label": "황무지 비율",
+      "unit": "%",
+      "layer_order": 4
+    }
+  ],
+  "pol_idx": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "dir_idx": [
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+  ],
+  "ind_idx": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "sd_idx": [
+    85,
+    86,
+    87,
+    88,
+    89
+  ],
+  "sdg_idx": [
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102
+  ],
+  "idx": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102
+  ],
+  "policy_meta": {
+    "ULS-건물-001": {
+      "name": "그린홈 주택지원사업",
+      "sector": "건물",
+      "unit": "kW",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-건물-002": {
+      "name": "울산형 주택태양광 지원사업",
+      "sector": "건물",
+      "unit": "kW",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-건물-003": {
+      "name": "사랑의 햇빛에너지 보조사업",
+      "sector": "건물",
+      "unit": "kW",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-건물-004": {
+      "name": "노후 주택 지붕 태양광 전환",
+      "sector": "건물",
+      "unit": "가구",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-건물-005": {
+      "name": "울산 그린스마트미래학교 전환",
+      "sector": "건물",
+      "unit": "개교",
+      "start_year": 2024,
+      "end_year": 2025
+    },
+    "ULS-건물-006": {
+      "name": "쿨루프 확대",
+      "sector": "건물",
+      "unit": "%",
+      "start_year": 2026,
+      "end_year": 2033
+    },
+    "ULS-건물-007": {
+      "name": "건물 옥상녹화",
+      "sector": "건물",
+      "unit": "%",
+      "start_year": 2026,
+      "end_year": 2033
+    },
+    "ULS-건물-008": {
+      "name": "고단열 창호교체",
+      "sector": "건물",
+      "unit": "가구",
+      "start_year": 2026,
+      "end_year": 2033
+    },
+    "ULS-건물-009": {
+      "name": "공공부문 온실가스 목표관리제",
+      "sector": "건물",
+      "unit": "개소",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-건물-010": {
+      "name": "LED 조명 보급",
+      "sector": "건물",
+      "unit": "개",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-건물-011": {
+      "name": "가정용 환경표지인증 보일러 교체",
+      "sector": "건물",
+      "unit": "대",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-건물-012": {
+      "name": "온실가스 진단·컨설팅",
+      "sector": "건물",
+      "unit": "개소",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-건물-013": {
+      "name": "탄소중립포인트 에너지 운영",
+      "sector": "건물",
+      "unit": "가구",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-건물-014": {
+      "name": "빗물이용시설 설치 확대",
+      "sector": "건물",
+      "unit": "개소",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-건물-015": {
+      "name": "상업용 건물 에너지관리시스템(BEMS) 보급",
+      "sector": "건물",
+      "unit": "개소",
+      "start_year": 2025,
+      "end_year": 2030
+    },
+    "ULS-건물-016": {
+      "name": "주거용 건물 에너지관리시스템(HEMS) 보급",
+      "sector": "건물",
+      "unit": "가구",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-건물-017": {
+      "name": "대기전력 차단기 보급",
+      "sector": "건물",
+      "unit": "개",
+      "start_year": 2026,
+      "end_year": 2030
+    },
+    "ULS-건물-018": {
+      "name": "신축건물 제로에너지건축(ZEB) 의무화",
+      "sector": "건물",
+      "unit": "m2",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-건물-019": {
+      "name": "신재생에너지 보급(융복합) 지원",
+      "sector": "건물",
+      "unit": "kW",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-건물-020": {
+      "name": "에너지 자립형 도로시설 설치",
+      "sector": "건물",
+      "unit": "kW",
+      "start_year": 2025,
+      "end_year": 2033
+    },
+    "ULS-건물-021": {
+      "name": "에너지 자립형 스마트 그늘막 설치",
+      "sector": "건물",
+      "unit": "개소",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-건물-022": {
+      "name": "그린캠퍼스 조성",
+      "sector": "건물",
+      "unit": "개소",
+      "start_year": 2027,
+      "end_year": 2027
+    },
+    "ULS-건물-023": {
+      "name": "시민가상발전소 보급",
+      "sector": "건물",
+      "unit": "kW",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-건물-024": {
+      "name": "건물 열병합발전시설 보급",
+      "sector": "건물",
+      "unit": "MW",
+      "start_year": 2030,
+      "end_year": 2030
+    },
+    "ULS-수송-001": {
+      "name": "전기차 보급사업",
+      "sector": "수송",
+      "unit": "대",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-수송-002": {
+      "name": "수소차 보급사업",
+      "sector": "수송",
+      "unit": "대",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-수송-003": {
+      "name": "전기이륜차 보급사업",
+      "sector": "수송",
+      "unit": "대",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-수송-004": {
+      "name": "친환경차 충전 인프라 확대",
+      "sector": "수송",
+      "unit": "기",
+      "start_year": 2024,
+      "end_year": 2029
+    },
+    "ULS-수송-005": {
+      "name": "택배용 전기화물차 보급",
+      "sector": "수송",
+      "unit": "대",
+      "start_year": 2026,
+      "end_year": 2030
+    },
+    "ULS-수송-006": {
+      "name": "전기 및 수소버스 보급 확대",
+      "sector": "수송",
+      "unit": "대",
+      "start_year": 2025,
+      "end_year": 2033
+    },
+    "ULS-수송-007": {
+      "name": "울산 트램 도입",
+      "sector": "수송",
+      "unit": "km",
+      "start_year": 2029,
+      "end_year": 2033
+    },
+    "ULS-수송-008": {
+      "name": "공유(공영)자전거 운영",
+      "sector": "수송",
+      "unit": "대",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-수송-009": {
+      "name": "자전거 도로 건설 확대",
+      "sector": "수송",
+      "unit": "km",
+      "start_year": 2030,
+      "end_year": 2030
+    },
+    "ULS-수송-010": {
+      "name": "노후 경유차 조기폐차",
+      "sector": "수송",
+      "unit": "대",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-수송-011": {
+      "name": "노후 경유차 및 어린이 통학차량 LPG 차량 구매 지원",
+      "sector": "수송",
+      "unit": "대",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-수송-012": {
+      "name": "노후 경유차 매연저감장치 부착",
+      "sector": "수송",
+      "unit": "대",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-수송-013": {
+      "name": "친환경 건설기계 보급",
+      "sector": "수송",
+      "unit": "대",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-수송-014": {
+      "name": "노후 건설기계 엔진 교체 지원",
+      "sector": "수송",
+      "unit": "대",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-수송-015": {
+      "name": "탄소중립포인트(자동차) 운영",
+      "sector": "수송",
+      "unit": "가구",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-수송-016": {
+      "name": "교통 수요관리",
+      "sector": "수송",
+      "unit": "-",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-수송-017": {
+      "name": "친환경 운전문화 확산",
+      "sector": "수송",
+      "unit": "-",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-농축수산-001": {
+      "name": "농촌형 태양광 설치·보급 확대",
+      "sector": "농축수산",
+      "unit": "kW",
+      "start_year": 2025,
+      "end_year": 2030
+    },
+    "ULS-농축수산-002": {
+      "name": "수상태양광 보급",
+      "sector": "농축수산",
+      "unit": "kW",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-농축수산-003": {
+      "name": "지열, 공기열 히트펌프 보급",
+      "sector": "농축수산",
+      "unit": "대",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-농축수산-004": {
+      "name": "바이오차",
+      "sector": "농축수산",
+      "unit": "t",
+      "start_year": 2025,
+      "end_year": 2025
+    },
+    "ULS-농축수산-005": {
+      "name": "도시농업 활성화",
+      "sector": "농축수산",
+      "unit": "개소",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-농축수산-006": {
+      "name": "로컬푸드 활성화",
+      "sector": "농축수산",
+      "unit": "개소",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-농축수산-007": {
+      "name": "친환경농법(논물관리)",
+      "sector": "농축수산",
+      "unit": "ha",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-농축수산-008": {
+      "name": "저메탄, 저단백질 사료보급",
+      "sector": "농축수산",
+      "unit": "t",
+      "start_year": 2025,
+      "end_year": 2030
+    },
+    "ULS-농축수산-009": {
+      "name": "노후 농기계 조기폐차",
+      "sector": "농축수산",
+      "unit": "대",
+      "start_year": 2024,
+      "end_year": 2027
+    },
+    "ULS-농축수산-010": {
+      "name": "전기 농기계 보급",
+      "sector": "농축수산",
+      "unit": "대",
+      "start_year": 2024,
+      "end_year": 2027
+    },
+    "ULS-자원순환-001": {
+      "name": "생활폐기물 발생량 감축",
+      "sector": "자원순환",
+      "unit": "t/일",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-자원순환-002": {
+      "name": "음식물류 폐기물 감량화",
+      "sector": "자원순환",
+      "unit": "t/일",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-자원순환-003": {
+      "name": "소각장 폐열 자원화(스팀에너지 공급)",
+      "sector": "자원순환",
+      "unit": "tCO2/yr",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-자원순환-004": {
+      "name": "울산광역시 재활용품 공공선별장 건립",
+      "sector": "자원순환",
+      "unit": "개소",
+      "start_year": 2026,
+      "end_year": 2026
+    },
+    "ULS-자원순환-005": {
+      "name": "제로웨이스트상점 확대 지원",
+      "sector": "자원순환",
+      "unit": "개소",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-자원순환-006": {
+      "name": "다회용기, 다회용컵 사용 플랫폼 구축·운영",
+      "sector": "자원순환",
+      "unit": "회",
+      "start_year": 2025,
+      "end_year": 2030
+    },
+    "ULS-흡수원-001": {
+      "name": "탄소중립 도시숲 조성",
+      "sector": "흡수원",
+      "unit": "ha",
+      "start_year": 2024,
+      "end_year": 2025
+    },
+    "ULS-흡수원-002": {
+      "name": "건강한 숲 조성",
+      "sector": "흡수원",
+      "unit": "ha",
+      "start_year": 2024,
+      "end_year": 2030
+    },
+    "ULS-흡수원-003": {
+      "name": "생활 속 정원문화 만들기",
+      "sector": "흡수원",
+      "unit": "개소",
+      "start_year": 2024,
+      "end_year": 2033
+    },
+    "ULS-흡수원-004": {
+      "name": "해중림 조성",
+      "sector": "흡수원",
+      "unit": "ha",
+      "start_year": 2024,
+      "end_year": 2033
+    }
+  },
+  "baseline_qty": {
+    "ULS-건물-001": 1.0,
+    "ULS-건물-002": 1.0,
+    "ULS-건물-003": 1.0,
+    "ULS-건물-004": 154.0,
+    "ULS-건물-005": 1.0,
+    "ULS-건물-006": 0.0,
+    "ULS-건물-007": 0.0,
+    "ULS-건물-008": 0.0,
+    "ULS-건물-009": 2346.0,
+    "ULS-건물-010": 16.0,
+    "ULS-건물-011": 445.0,
+    "ULS-건물-012": 10.0,
+    "ULS-건물-013": 15075.0,
+    "ULS-건물-014": 1.0,
+    "ULS-건물-015": 0.0,
+    "ULS-건물-016": 1.0,
+    "ULS-건물-017": 0.0,
+    "ULS-건물-019": 0.16666664652567975,
+    "ULS-건물-020": 0.0,
+    "ULS-건물-022": 0.0,
+    "ULS-건물-023": 1.0,
+    "ULS-건물-024": 0.0,
+    "ULS-수송-001": 0.11111111549851924,
+    "ULS-수송-002": 0.1111111111111111,
+    "ULS-수송-003": 0.1666642857142857,
+    "ULS-수송-005": 0.0,
+    "ULS-수송-006": 0.0,
+    "ULS-수송-007": 0.0,
+    "ULS-수송-009": 0.0,
+    "ULS-수송-010": 1.0,
+    "ULS-수송-011": 1.0,
+    "ULS-수송-013": 1.0,
+    "ULS-수송-015": 1.0,
+    "ULS-농축수산-001": 0.0,
+    "ULS-농축수산-002": 0.16666661341853034,
+    "ULS-농축수산-003": 0.1666670731707317,
+    "ULS-농축수산-004": 0.0,
+    "ULS-농축수산-007": 0.1666666583541147,
+    "ULS-농축수산-008": 0.0,
+    "ULS-자원순환-001": 0.11111110762144054,
+    "ULS-자원순환-002": 0.16666666666666666,
+    "ULS-자원순환-003": 0.11111111075541613,
+    "ULS-자원순환-006": 0.0,
+    "ULS-흡수원-001": 1.0,
+    "ULS-흡수원-002": 0.16666666666666666,
+    "ULS-흡수원-003": 0.11111428571428572,
+    "ULS-흡수원-004": 0.1111125
+  },
+  "link_types": {
+    "D01:I01": "CAUSES",
+    "D02:I04": "CAUSES",
+    "D03:I04": "CAUSES",
+    "D04:I05": "CAUSES",
+    "D05:I04": "CAUSES",
+    "D07:I03": "CAUSES",
+    "D07:I17": "CONTRIBUTES_TO",
+    "D08:I03": "CAUSES",
+    "D09:I06": "CAUSES",
+    "D09:I18": "CONTRIBUTES_TO",
+    "D10:I06": "CAUSES",
+    "D11:I01": "CAUSES",
+    "D11:I10": "CAUSES",
+    "D12:I08": "CAUSES",
+    "D12:I09": "CAUSES",
+    "D13:I09": "CAUSES",
+    "D14:I10": "CAUSES",
+    "D15:I16": "CAUSES",
+    "D16:I11": "CAUSES",
+    "D17:I11": "CONTRIBUTES_TO",
+    "D17:I13": "CAUSES",
+    "D17:SD01": "TRANSFORMS_TO",
+    "D18:I07": "CAUSES",
+    "D18:I14": "CAUSES",
+    "D18:I15": "CAUSES",
+    "D19:I06": "CAUSES",
+    "D20:I13": "CAUSES",
+    "I01:I02": "TRANSFORMS_TO",
+    "I02:SD01": "TRANSFORMS_TO",
+    "I02:SD02": "TRANSFORMS_TO",
+    "I02:SD03": "TRANSFORMS_TO",
+    "I03:SD01": "TRANSFORMS_TO",
+    "I03:SD03": "TRANSFORMS_TO",
+    "I04:SD01": "TRANSFORMS_TO",
+    "I04:SD03": "TRANSFORMS_TO",
+    "I05:I04": "TRANSFORMS_TO",
+    "I06:SD01": "TRANSFORMS_TO",
+    "I06:SD03": "TRANSFORMS_TO",
+    "I10:SD01": "TRANSFORMS_TO",
+    "I10:SD03": "TRANSFORMS_TO",
+    "I11:I12": "CAUSES",
+    "I13:SD01": "TRANSFORMS_TO",
+    "I13:SD02": "TRANSFORMS_TO",
+    "I13:SD03": "TRANSFORMS_TO",
+    "I14:G12": "CONTRIBUTES_TO",
+    "I15:G09": "CONTRIBUTES_TO",
+    "I16:SD03": "TRANSFORMS_TO",
+    "I17:SD04": "CONTRIBUTES_TO",
+    "I18:SD05": "CONTRIBUTES_TO",
+    "ULS-건물-001:D01": "CAUSES",
+    "ULS-건물-002:D01": "CAUSES",
+    "ULS-건물-003:D01": "CAUSES",
+    "ULS-건물-004:D02": "CAUSES",
+    "ULS-건물-005:D02": "CAUSES",
+    "ULS-건물-006:D02": "CAUSES",
+    "ULS-건물-007:D02": "CAUSES",
+    "ULS-건물-008:D02": "CAUSES",
+    "ULS-건물-009:D02": "CAUSES",
+    "ULS-건물-010:D03": "CAUSES",
+    "ULS-건물-011:D05": "CAUSES",
+    "ULS-건물-012:D02": "CAUSES",
+    "ULS-건물-013:D05": "CAUSES",
+    "ULS-건물-014:D06": "CAUSES",
+    "ULS-건물-015:D02": "CAUSES",
+    "ULS-건물-016:D02": "CAUSES",
+    "ULS-건물-017:D03": "CAUSES",
+    "ULS-건물-019:D01": "CAUSES",
+    "ULS-건물-020:D01": "CAUSES",
+    "ULS-건물-022:D02": "CAUSES",
+    "ULS-건물-023:D01": "CAUSES",
+    "ULS-건물-024:D17": "CAUSES",
+    "ULS-농축수산-001:D11": "CAUSES",
+    "ULS-농축수산-002:D11": "CAUSES",
+    "ULS-농축수산-003:D11": "CAUSES",
+    "ULS-농축수산-004:D12": "CAUSES",
+    "ULS-농축수산-007:D12": "CAUSES",
+    "ULS-농축수산-008:D12": "CAUSES",
+    "ULS-수송-001:D07": "CAUSES",
+    "ULS-수송-002:D07": "CAUSES",
+    "ULS-수송-003:D07": "CAUSES",
+    "ULS-수송-005:D07": "CAUSES",
+    "ULS-수송-006:D08": "CAUSES",
+    "ULS-수송-007:D09": "CAUSES",
+    "ULS-수송-009:D09": "CAUSES",
+    "ULS-수송-010:D10": "CAUSES",
+    "ULS-수송-011:D10": "CAUSES",
+    "ULS-수송-013:D19": "CAUSES",
+    "ULS-수송-015:D05": "CAUSES",
+    "ULS-자원순환-001:D16": "CAUSES",
+    "ULS-자원순환-002:D16": "CAUSES",
+    "ULS-자원순환-003:D17": "CAUSES",
+    "ULS-자원순환-006:D16": "CAUSES",
+    "ULS-흡수원-001:D18": "CAUSES",
+    "ULS-흡수원-002:D18": "CAUSES",
+    "ULS-흡수원-003:D18": "CAUSES",
+    "ULS-흡수원-004:D18": "CAUSES",
+    "I07:G01": "FORMULA",
+    "I07:G08": "FORMULA",
+    "I08:G01": "FORMULA",
+    "I08:G08": "FORMULA",
+    "I09:G01": "FORMULA",
+    "I09:G08": "FORMULA",
+    "I12:G01": "FORMULA",
+    "I12:G08": "FORMULA",
+    "I15:G01": "FORMULA",
+    "I15:G08": "FORMULA",
+    "I18:G07": "FORMULA",
+    "I01:SD02": "CAUSES",
+    "I05:SD03": "CAUSES",
+    "I14:G13": "CONTRIBUTES_TO",
+    "I15:G13": "CONTRIBUTES_TO",
+    "I17:G07": "CONTRIBUTES_TO",
+    "I01:G02": "FORMULA",
+    "I01:G03": "FORMULA",
+    "I02:G01": "FORMULA",
+    "I02:G08": "FORMULA",
+    "I02:G02": "FORMULA",
+    "I02:G03": "FORMULA",
+    "I03:G01": "FORMULA",
+    "I03:G08": "FORMULA",
+    "I03:G02": "FORMULA",
+    "I03:G03": "FORMULA",
+    "I04:G01": "FORMULA",
+    "I04:G08": "FORMULA",
+    "I04:G02": "FORMULA",
+    "I04:G03": "FORMULA",
+    "I05:G02": "FORMULA",
+    "I05:G03": "FORMULA",
+    "I06:G01": "FORMULA",
+    "I06:G08": "FORMULA",
+    "I06:G02": "FORMULA",
+    "I06:G03": "FORMULA",
+    "I10:G01": "FORMULA",
+    "I10:G08": "FORMULA",
+    "I10:G02": "FORMULA",
+    "I10:G03": "FORMULA",
+    "I13:G01": "FORMULA",
+    "I13:G08": "FORMULA",
+    "I13:G02": "FORMULA",
+    "I13:G03": "FORMULA",
+    "I16:G02": "FORMULA",
+    "I16:G03": "FORMULA",
+    "I17:G04": "FORMULA",
+    "I17:G05": "FORMULA",
+    "I17:G06": "FORMULA",
+    "I17:G08": "FORMULA",
+    "I18:G05": "FORMULA"
+  },
+  "sdg_labels": {}
+}

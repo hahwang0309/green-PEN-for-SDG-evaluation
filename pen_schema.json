@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "description": "Policy Effect Network (PEN) 데이터 스키마",
+  "pen_types": {
+    "PEN_SD": {
+      "description": "SD(시스템다이내믹스) 모델 투입용 PEN",
+      "sink_layer": 4,
+      "sink_nodes": [
+        "온실가스배출량",
+        "신재생에너지사용량",
+        "기존에너지사용량",
+        "1·2차산업GDP",
+        "1·2차산업취업자수"
+      ],
+      "path_generation": "LLM (Input2=SD싱크노드5개)"
+    },
+    "PEN_SDG": {
+      "description": "K-SDGs 평가 연계용 PEN",
+      "sink_layer": 5,
+      "sink_nodes_derived": [
+        "13.2.2",
+        "7.2.1",
+        "7.3.1",
+        "9.4.1",
+        "8.1.1",
+        "8.2.1",
+        "9.2.1",
+        "9.2.2"
+      ],
+      "sink_nodes_independent": [
+        "6.6.1",
+        "11.3.1",
+        "11.7.1",
+        "15.1.1",
+        "15.3.1"
+      ],
+      "path_generation": "PEN_SD 경로 재사용 + 독립SDG5개 별도 LLM 실행"
+    }
+  },
+  "node_layers": {
+    "1": "POLICY",
+    "2": "DIRECT",
+    "3": "INDIRECT",
+    "4": "SD_SINK",
+    "5": "SDG_SINK"
+  },
+  "raf_formula": "RAF_지역 = 지역파라미터값 / 3개지역평균값",
+  "effective_weight_formula": "W_지역 = base_weight × RAF_지역",
+  "region_codes": {
+    "ULS": "울산광역시",
+    "SES": "전남 순천시",
+    "SCH": "충남 서산시"
+  },
+  "node_scope": {
+    "COMMON": "3개 지역 모두 활성",
+    "CONDITIONAL": "2개 이하 지역 활성 (미존재 지역은 RAF=0)",
+    "UNIQUE": "1개 지역 전용 서브그래프"
+  },
+  "link_types": {
+    "CAUSES": "물리적·과학적 인과관계",
+    "CONTRIBUTES_TO": "기여 관계 (간접효과 노드 간)",
+    "TRANSFORMS_TO": "단위 변환 (동치 귀속)",
+    "FORMULA": "수식 변환 (SD→SDG, LLM 불필요)"
+  },
+  "constraints": [
+    "Physical Consistency",
+    "No Loop (DAG)",
+    "Sink-directed paths only"
+  ]
+}
