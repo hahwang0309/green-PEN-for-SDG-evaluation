@@ -33,3 +33,13 @@ build/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Browser automation artifacts
+.playwright-mcp/
+
+# Agent / tooling state
+.serena/
+.gstack/
+
+# Excel lock files
+~$*
